@@ -48,15 +48,15 @@ rezervne fontove (Georgia i Arial). Sve ostalo radi offline.
 **Desktop (1280 px)**
 
 ![Desktop verzija sajta](slike/screenshots/desktop.png)
-![Druga slika](slike\screenshots\desktop1.png)
+![Druga slika](slike/screenshots/desktop1.png)
 
 **Mobitel (390 px)**
 
-![Mobilna verzija](slike\screenshots\mobitel.png)
-![Druga slika](slike\screenshots\mobitel1.png)
-![treća slika](slike\screenshots\mobitel2.png)
-![četvrta slika](slike\screenshots\mobitel3.png)
-![peta slika](slike\screenshots\mobitel4.png)
+![Mobilna verzija](slike/screenshots/mobitel.png)
+![Druga slika](slike/screenshots/mobitel1.png)
+![treća slika](slike/screenshots/mobitel2.png)
+![četvrta slika](slike/screenshots/mobitel3.png)
+![peta slika](slike/screenshots/mobitel4.png)
 
 ---
 
