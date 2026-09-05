@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420"
+     role="img" aria-label="Shematska mapa lokacije rasadnika Kalem u Banjaluci, na uglu Vrbaske i Sadikove ulice, uz rijeku Vrbas">
+
+  <rect width="640" height="420" fill="#E4E8DC"/>
+
+  <!-- rijeka Vrbas -->
+  <path d="M-10 96 C 90 118, 150 74, 250 104 S 430 168, 520 148 S 640 120, 660 132"
+        stroke="#9FB8C4" stroke-width="34" fill="none" stroke-linecap="round"/>
+  <path d="M-10 96 C 90 118, 150 74, 250 104 S 430 168, 520 148 S 640 120, 660 132"
+        stroke="#B7CCD6" stroke-width="20" fill="none" stroke-linecap="round"/>
+
+  <!-- blokovi -->
+  <g fill="#D8DBCF">
+    <rect x="60" y="196" width="150" height="90" rx="3"/>
+    <rect x="248" y="196" width="118" height="90" rx="3"/>
+    <rect x="404" y="196" width="170" height="90" rx="3"/>
+    <rect x="60" y="322" width="150" height="76" rx="3"/>
+    <rect x="248" y="322" width="118" height="76" rx="3"/>
+    <rect x="404" y="322" width="170" height="76" rx="3"/>
+  </g>
+
+  <!-- ulice -->
+  <g stroke="#F4F5F0" stroke-width="22" stroke-linecap="square">
+    <path d="M0 176h640"/>
+    <path d="M0 304h640"/>
+    <path d="M229 176v244"/>
+    <path d="M385 176v244"/>
+  </g>
+
+  <!-- nazivi ulica -->
+  <g font-family="Archivo, Arial, sans-serif" font-size="13" fill="#5F6B5F">
+    <text x="24" y="171">Vrbaska ulica</text>
+    <text x="24" y="299">Ulica Branka Radičevića</text>
+    <text x="236" y="412" transform="rotate(-90 236 412)">Sadikova</text>
+    <text x="392" y="412" transform="rotate(-90 392 412)">Zelena</text>
+    <text x="40" y="86" fill="#6E8D9B" font-style="italic" font-size="15">rijeka Vrbas</text>
+  </g>
+
+  <!-- parking -->
+  <rect x="248" y="196" width="118" height="34" fill="#C9CEBF"/>
+  <text x="258" y="218" font-family="Archivo, Arial, sans-serif" font-size="12" fill="#5F6B5F">Parking</text>
+
+  <!-- lokacija -->
+  <g>
+    <circle cx="229" cy="240" r="26" fill="#A8C64F" opacity=".38"/>
+    <path d="M229 214c-11 0-20 9-20 20 0 15 20 34 20 34s20-19 20-34c0-11-9-20-20-20z" fill="#1C2B22"/>
+    <circle cx="229" cy="234" r="7" fill="#A8C64F"/>
+  </g>
+
+  <text x="264" y="258" font-family="Archivo, Arial, sans-serif" font-size="17"
+        font-weight="700" fill="#1C2B22">Kalem</text>
+  <text x="264" y="276" font-family="Archivo, Arial, sans-serif" font-size="13"
+        fill="#5F6B5F">Vrbaska 14</text>
+
+  <!-- razmjera -->
+  <g transform="translate(468 386)">
+    <path d="M0 0h84" stroke="#5F6B5F" stroke-width="2"/>
+    <path d="M0 -5v10M84 -5v10" stroke="#5F6B5F" stroke-width="2"/>
+    <text x="0" y="-10" font-family="Archivo, Arial, sans-serif" font-size="11" fill="#5F6B5F">100 m</text>
+  </g>
+
+  <text x="24" y="404" font-family="Archivo, Arial, sans-serif" font-size="11" fill="#7C8878">
+    Shematski prikaz, nije mjerodavan za navigaciju
+  </text>
+</svg>

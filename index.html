@@ -1,0 +1,401 @@
+<!doctype html>
+<html lang="bs">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Kalem cvjećara</title>
+    <meta
+      name="description"
+      content="Rasadnik i cvjećara u Banjaluci. Sobno bilje, vrtne sadnice i sezonski rasad, s cjenovnikom i savjetom uz svaku biljku."
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <a class="preskoci" href="#glavni">Preskoči na sadržaj</a>
+
+    <!--ZAGLAVLJE  -->
+    <header class="zaglavlje">
+      <div class="omotac zaglavlje__red">
+        <a class="logo" href="#vrh">
+          <span class="logo__znak" aria-hidden="true"></span>
+          Kalem
+        </a>
+
+        <button
+          class="meni-dugme"
+          id="meniDugme"
+          aria-expanded="false"
+          aria-controls="meni"
+        >
+          <span class="meni-dugme__crte" aria-hidden="true"></span>
+          <span class="vidljivo-citacu">Otvori meni</span>
+        </button>
+
+        <nav aria-label="Glavna navigacija">
+          <ul class="meni" id="meni">
+            <li><a href="#ponuda">Ponuda</a></li>
+            <li><a href="#cjenovnik">Cjenovnik</a></li>
+            <li><a href="#posjeta">Posjeta</a></li>
+            <li><a href="#kontakt">Kontakt</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="glavni">
+      <!--HERO  -->
+      <section class="hero" id="vrh">
+        <div class="omotac hero__mreza">
+          <div class="hero__tekst">
+            <h1>Biljke koje prežive stan u Banjaluci</h1>
+
+            <p class="uvod">
+              Uzgajamo sobno bilje i vrtne sadnice u vlastitom plasteniku na
+              Vrbasu. Uz svaku biljku dobijete kratku uputu: koliko svjetla,
+              koliko vode i kada je presaditi.
+            </p>
+
+            <div class="hero__dugmad">
+              <a class="dugme" href="#cjenovnik">Pogledaj cjenovnik</a>
+              <a class="dugme dugme--tiho" href="#posjeta">Kad smo otvoreni</a>
+            </div>
+
+            <dl class="cinjenice">
+              <div>
+                <dt>Uzgajamo od</dt>
+                <dd>2014.</dd>
+              </div>
+              <div>
+                <dt>Vrsta u ponudi</dt>
+                <dd>preko 120</dd>
+              </div>
+              <div>
+                <dt>Zamjena ako se ne primi</dt>
+                <dd>30 dana</dd>
+              </div>
+            </dl>
+          </div>
+
+          <div class="hero__slika">
+            <img
+              src="slike/monstera-foto.jpg"
+              alt="Monstera deliciosa list u saksiji"
+              width="338"
+              height="507"
+            />
+            <p class="etiketa">
+              <span class="etiketa__ime">Monstera deliciosa</span>
+              <span class="etiketa__opis"
+                >polusjena &middot; zalijevati sedmično</span
+              >
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- KATEGORIJE -->
+      <section class="odjeljak" id="ponuda">
+        <div class="omotac">
+          <h2>Tri police u plasteniku</h2>
+          <p class="odjeljak__uvod">
+            Ponudu držimo malom namjerno. Radije imamo dvadeset vrsta koje
+            poznajemo nego dvjesto koje smo samo preprodali.
+          </p>
+
+          <ul class="kategorije">
+            <li class="kategorija">
+              <img
+                src="slike/boho-106320.jpg"
+                alt=""
+                width="564"
+                height="846"
+              />
+              <div class="kategorija__tekst">
+                <h3>Sobno bilje</h3>
+                <p>
+                  Otporne vrste za stanove sa sjevernom stranom. Monstera,
+                  fikus, sansevijerija i potos, sve iz vlastitog razmnožavanja.
+                </p>
+                <p class="kategorija__raspon">od 12 do 45 KM</p>
+              </div>
+            </li>
+
+            <li class="kategorija">
+              <img src="slike/roses.jpg" alt="" width="415" height="738" />
+              <div class="kategorija__tekst">
+                <h3>Vrtne sadnice</h3>
+                <p>
+                  Trajnice i grmlje prilagođeni ovdašnjim zimama. Lavanda,
+                  ruzmarin, hortenzija i božur u saksijama od dvije litre.
+                </p>
+                <p class="kategorija__raspon">od 9 do 38 KM</p>
+              </div>
+            </li>
+
+            <li class="kategorija">
+              <img src="slike/biljka.jpeg" alt="" width="625" height="350" />
+              <div class="kategorija__tekst">
+                <h3>Sezonski rasad</h3>
+                <p>
+                  Povrće i cvijeće u pravo vrijeme za sadnju. Paradajz, paprika
+                  i jagoda u proljeće, muškatle i ciklama kasnije.
+                </p>
+                <p class="kategorija__raspon">od 2 do 14 KM</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!--  CJENOVNIK  -->
+      <section class="odjeljak odjeljak--tamni" id="cjenovnik">
+        <div class="omotac">
+          <div class="cjenovnik__zaglavlje">
+            <div>
+              <h2>Cjenovnik</h2>
+              <p class="odjeljak__uvod">
+                Cijene vrijede za biljke u navedenoj veličini saksije.
+                Presađivanje u vašu posudu radimo besplatno dok čekate.
+              </p>
+            </div>
+
+            <div
+              class="filteri"
+              role="group"
+              aria-label="Filtriranje cjenovnika"
+            >
+              <button class="filter je-aktivan" data-grupa="sve">Sve</button>
+              <button class="filter" data-grupa="sobno">Sobno</button>
+              <button class="filter" data-grupa="vrtno">Vrtno</button>
+              <button class="filter" data-grupa="rasad">Rasad</button>
+            </div>
+          </div>
+
+          <table class="cijene">
+            <caption class="vidljivo-citacu">
+              Cjenovnik biljaka po vrstama
+            </caption>
+            <thead>
+              <tr>
+                <th scope="col">Biljka</th>
+                <th scope="col">Saksija</th>
+                <th scope="col">Cijena</th>
+              </tr>
+            </thead>
+            <tbody id="tijeloCjenovnika">
+              <tr data-grupa="sobno">
+                <th scope="row">Monstera <i>Monstera deliciosa</i></th>
+                <td>19 cm</td>
+                <td class="cijena">38 KM</td>
+              </tr>
+
+              <tr data-grupa="sobno">
+                <th scope="row">Fikus lira <i>Ficus lyrata</i></th>
+                <td>21 cm</td>
+                <td class="cijena">45 KM</td>
+              </tr>
+
+              <tr data-grupa="sobno">
+                <th scope="row">Sansevijerija <i>Dracaena trifasciata</i></th>
+                <td>15 cm</td>
+                <td class="cijena">22 KM</td>
+              </tr>
+
+              <tr data-grupa="sobno">
+                <th scope="row">Potos <i>Epipremnum aureum</i></th>
+                <td>13 cm</td>
+                <td class="cijena">12 KM</td>
+              </tr>
+
+              <tr data-grupa="sobno">
+                <th scope="row">Zamija <i>Zamioculcas zamiifolia</i></th>
+                <td>17 cm</td>
+                <td class="cijena">34 KM</td>
+              </tr>
+
+              <tr data-grupa="vrtno">
+                <th scope="row">Lavanda <i>Lavandula angustifolia</i></th>
+                <td>14 cm</td>
+                <td class="cijena">14 KM</td>
+              </tr>
+
+              <tr data-grupa="vrtno">
+                <th scope="row">Ruzmarin <i>Salvia rosmarinus</i></th>
+                <td>14 cm</td>
+                <td class="cijena">9 KM</td>
+              </tr>
+
+              <tr data-grupa="vrtno">
+                <th scope="row">Hortenzija <i>Hydrangea macrophylla</i></th>
+                <td>17 cm</td>
+                <td class="cijena">28 KM</td>
+              </tr>
+
+              <tr data-grupa="vrtno">
+                <th scope="row">Božur <i>Paeonia lactiflora</i></th>
+                <td>17 cm</td>
+                <td class="cijena">38 KM</td>
+              </tr>
+
+              <tr data-grupa="rasad">
+                <th scope="row">
+                  Paradajz, sadnica <i>Solanum lycopersicum</i>
+                </th>
+                <td>čaša 9 cm</td>
+                <td class="cijena">2 KM</td>
+              </tr>
+
+              <tr data-grupa="rasad">
+                <th scope="row">
+                  Jagoda, živić <i>Fragaria &times; ananassa</i>
+                </th>
+                <td>čaša 9 cm</td>
+                <td class="cijena">3 KM</td>
+              </tr>
+
+              <tr data-grupa="rasad">
+                <th scope="row">Muškatla <i>Pelargonium peltatum</i></th>
+                <td>12 cm</td>
+                <td class="cijena">7 KM</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <p class="cjenovnik__napomena">
+            Za količine preko deset komada javite se telefonom, dogovaramo
+            cijenu.
+          </p>
+        </div>
+      </section>
+
+      <!-- POSJETA  -->
+      <section class="odjeljak" id="posjeta">
+        <div class="omotac posjeta__mreza">
+          <div>
+            <h2>Kad i gdje</h2>
+
+            <table class="vrijeme">
+              <caption class="vidljivo-citacu">
+                Radno vrijeme po danima
+              </caption>
+              <tbody>
+                <tr>
+                  <th scope="row">Ponedjeljak &ndash; petak</th>
+                  <td>08:00 &ndash; 19:00</td>
+                </tr>
+                <tr>
+                  <th scope="row">Subota</th>
+                  <td>08:00 &ndash; 15:00</td>
+                </tr>
+                <tr>
+                  <th scope="row">Nedjelja</th>
+                  <td>zatvoreno</td>
+                </tr>
+              </tbody>
+            </table>
+
+            <p class="posjeta__adresa">
+              Vrbaska 14, Banjaluka<br />
+              <a href="tel:+38751123456">051 123 456</a>
+            </p>
+
+            <p class="posjeta__savjet">
+              Subotom prije podne je najveća gužva. Ako trebate savjet za
+              konkretnu biljku, dođite radnim danom poslije 16 sati.
+            </p>
+          </div>
+
+          <figure class="mapa">
+            <img
+              src="slike/mapa.svg"
+              alt="Shematska mapa: Kalem se nalazi u Vrbaskoj ulici broj 14, na uglu sa Sadikovom ulicom, uz rijeku Vrbas. Parking je preko puta."
+              width="640"
+              height="420"
+            />
+            <figcaption>Ulaz je iz Sadikove, parking preko puta.</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <!--  KONTAKT -->
+      <section class="odjeljak odjeljak--svijetli" id="kontakt">
+        <div class="omotac omotac--uzak">
+          <h2>Pitajte za biljku</h2>
+          <p class="odjeljak__uvod">
+            Napišite koju biljku tražite i kakvo svjetlo imate. Odgovaramo isti
+            dan, radnim danima.
+          </p>
+
+          <form class="forma" id="forma" novalidate>
+            <div class="polje">
+              <label for="ime">Ime</label>
+              <input type="text" id="ime" name="ime" autocomplete="name" />
+              <p class="greska" id="greskaIme"></p>
+            </div>
+
+            <div class="polje">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                autocomplete="email"
+              />
+              <p class="greska" id="greskaEmail"></p>
+            </div>
+
+            <div class="polje">
+              <label for="tema">O čemu se radi</label>
+              <select id="tema" name="tema">
+                <option value="savjet">Savjet za biljku</option>
+                <option value="dostupnost">Dostupnost i rezervacija</option>
+                <option value="kolicina">Veća količina</option>
+                <option value="drugo">Nešto drugo</option>
+              </select>
+            </div>
+
+            <div class="polje">
+              <label for="poruka">Poruka</label>
+              <textarea id="poruka" name="poruka" rows="5"></textarea>
+              <p class="greska" id="greskaPoruka"></p>
+            </div>
+
+            <button class="dugme" type="submit">Pošalji upit</button>
+
+            <p class="forma__napomena">
+              Forma nema server, pa se poruka ne šalje nikuda. Ovo je vježba iz
+              provjere unosa.
+            </p>
+          </form>
+
+          <p class="potvrda" id="potvrda" hidden></p>
+        </div>
+      </section>
+    </main>
+
+    <!--  PODNOŽJE-->
+    <footer class="podnozje">
+      <div class="omotac podnozje__red">
+        <p class="podnozje__ime">Kalem &mdash; rasadnik i cvjećara</p>
+
+        <p>
+          Vrbaska 14, Banjaluka &nbsp;&middot;&nbsp;
+          <a href="tel:+38751123456">051 123 456</a> &nbsp;&middot;&nbsp;
+          <a href="mailto:zdravo@kalem.example">zdravo@kalem.example</a>
+        </p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
